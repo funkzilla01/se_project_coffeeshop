@@ -29,16 +29,16 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="" class="nav__link">Recipes</a>
+              <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="" class="nav__link">Book a table</a>
+              <a href="#reservation" class="nav__link">Book a table</a>
             </li>
             <li>
-              <a href="" class="nav__link">Menu</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="" class="nav__link">Contacts</a>
+              <a href="#about" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -67,7 +67,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home brewing
@@ -76,25 +76,26 @@
           <ul class="recipes__videos">
             <li>
               <iframe
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=QTSZBLX8QhT3wF5w"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
               ></iframe>
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
               <p class="recipes__video-caption">
                 <span>Aeropress Recipes</span> <span>~5 min</span>
               </p>
             </li>
             <li>
               <iframe
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=TI2PzeY8EuM0F3Vv"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
