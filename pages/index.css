@@ -142,10 +142,14 @@
 
 .reservation {
   padding: 100px 0 120px;
+  background-position: center;
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-image: url("../images/background_reservation.svg");
 }
 
 .reservation__title {
-  padding: 100px 0 120px;
+  padding: 100px 0 80px;
   margin: 0 0 80px;
   text-align: center;
 }
@@ -174,12 +178,18 @@
   border-radius: 4px;
 }
 
+.form__input_type_checkbox {
+  width: fit-content;
+  margin: 0;
+}
+
 .form__button {
   border-radius: 4px;
   width: 100%;
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
+  background-color: #3f96f3;
 }
 
 .form__checkbox {
@@ -188,8 +198,9 @@
   height: 20px;
 }
 
-.form__lable_type_checkbox {
+.form__label_type_checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;
+  align-items: center;
 }
