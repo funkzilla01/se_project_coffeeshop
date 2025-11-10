@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #fff url("../images/background_menu.svg") no-repeat center/cover;
 }
 
 .menu__title {
@@ -18,7 +19,6 @@
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
-  align-items: center;
 
   font-family: "Noto Serif";
   font-style: normal;

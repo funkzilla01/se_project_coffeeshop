@@ -9,14 +9,14 @@
   flex-direction: column;
   gap: 16px;
 
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
-card__title {
+.card__title {
   margin: 0 0 32px;
 
   font-family: "Inter";
@@ -34,5 +34,4 @@ card__title {
 .card__list-divider {
   flex-grow: 1;
   border-bottom: 1px solid black;
-  gap: 10px;
 }
